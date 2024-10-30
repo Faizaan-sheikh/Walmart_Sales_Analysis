@@ -70,6 +70,7 @@ Exploratory Data Analysis (EDA): Exploratory data analysis is done to answer the
 CREATE DATABASE WALMART_SALES_ANALYSIS;
 
 -- **Table Creation** -- 
+
 `` sql
 CREATE TABLE sales_data (
                          invoice_id 	  VARCHAR(15)   NOT NULL PRIMARY KEY,
@@ -90,4 +91,4 @@ CREATE TABLE sales_data (
                          gross_income	  FLOAT(11,4)	NOT NULL,
                          rating			  FLOAT(2,1)	NOT NULL
 						);
-      ``
+ ``
